@@ -1,0 +1,29 @@
+/* Add this file if it doesn't exist, or append these styles if it does */
+
+/* Make the color picker full width */
+.react-colorful {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+}
+
+/* Ensure proper aspect ratio */
+.react-colorful__saturation {
+  aspect-ratio: 1 / 1;
+  width: 100% !important;
+}
+
+/* Fix hue slider width */
+.react-colorful__hue {
+  width: 100% !important;
+}
+
+/* Make sure all cards have the same width */
+.bg-white {
+  width: 100% !important;
+}
+
+/* Force all interactive elements to full width */
+.react-colorful__interactive {
+  width: 100% !important;
+} 
